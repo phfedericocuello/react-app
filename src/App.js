@@ -1,12 +1,13 @@
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import Header from './components/Header.js';
+import Header from './components/Header';
+import Catalogo from './components/Catalogo'
 
 function App() {
   return (
    <>
       <Header />
-      <h1>Tienda de Componentes</h1>
+      <Catalogo />
    
    </>
   );

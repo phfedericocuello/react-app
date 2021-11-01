@@ -1,4 +1,5 @@
 import logo from '../logo.svg';
+import Cart from "./Cart"
 
 function Header(){
     return(
@@ -16,6 +17,9 @@ function Header(){
                     <button type="button" class="btn btn-outline-primary">Gabinetes</button>
                 </div>  
             </nav>
+
+            <Cart />
+
         </header>
     )
 }
