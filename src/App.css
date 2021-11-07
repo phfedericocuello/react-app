@@ -24,3 +24,27 @@ h1{
   height: 50px;
   width: auto;
 }
+.catalogo{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-top: 5%;
+}
+
+.contenedor{
+  border-radius: 3%;
+}
+.precio{
+  text-align: center;
+  font-weight: bold;
+  margin-top: 1vh;
+}
+.counter{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.cantidad{
+  text-align: center;
+}
