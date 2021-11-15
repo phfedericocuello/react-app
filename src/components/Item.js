@@ -1,7 +1,7 @@
 import ItemCount from './ItemCount'
 
 
-const Producto = ({title, precio, id, thumbnail, stock}) => {
+const Item = ({title, precio, id, thumbnail, stock}) => {
     return(
         <>
         <div className="contenedor shadow p-3 mb-5 bg-body">
@@ -18,4 +18,4 @@ const Producto = ({title, precio, id, thumbnail, stock}) => {
     )
 }
 
-export default Producto;
+export default Item;
